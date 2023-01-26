@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Добавление товара
+{% endblock %}
+
+
+{% block content %}
+<div class="container">
+    <h1>Добавление товара</h1>
+    <form method = "post">
+        <p><input type="text" class="form-control " name="title" id="title" placeholder="Введите название товара"></p>
+        <p><input type="number" class="form label-sm" name="price" id="price" placeholder="Введите стоимость"></p>
+<!--        <textarea name="intro" id="intro" class="container form-control" placeholder="Введите заглавие"></textarea><br>-->
+<!--        <textarea name="text" id="text" class="container form-control" placeholder="Описание"></textarea><br>-->
+<!--        <textarea name="manufacturer" id="manufacturer" class="container form-control" placeholder="Изготовитель"></textarea><br>-->
+<!--        <textarea name="country" id="country" class="container form-control" placeholder="Страна производитель"></textarea><br>-->
+<!--        <p><input type="number" class="form label-sm" name="wt" id="wt" placeholder="Введите вес"></p>-->
+<!--        <p><input type="number" class="form label-sm" name="delivery_time" id="delivery_time" placeholder="Дата поставки"></p>-->
+<!--        <textarea name="material" id="material" class="container form-control" placeholder="Состав: "></textarea><br>-->
+        <button class="btn btn-warning" type="submit">Добавить</button>
+    </form>
+</div>
+
+{% endblock %}
+
